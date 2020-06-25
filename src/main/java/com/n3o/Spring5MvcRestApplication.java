@@ -1,4 +1,4 @@
-package com.n3o.spring5mvcrest;
+package com.n3o;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
