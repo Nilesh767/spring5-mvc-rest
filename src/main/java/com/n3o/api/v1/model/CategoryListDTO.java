@@ -1,4 +1,4 @@
-package com.n3o.api.v1.mapper;
+package com.n3o.api.v1.model;
 
 import com.n3o.api.v1.model.CategoryDTO;
 import lombok.AllArgsConstructor;
