@@ -19,7 +19,7 @@ public class Bootstrap implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args){
         System.out.println("Loading Categories");
         loadCategories();
         System.out.println("Loading Customers");
@@ -55,9 +55,9 @@ public class Bootstrap implements CommandLineRunner {
         customer1.setFirstName("N3O");
         customer1.setLastName("Choudhary");
         Customer customer2 = new Customer();
-        customer1.setId(2L);
-        customer1.setFirstName("eluelu");
-        customer1.setLastName("blabla");
+        customer2.setId(2L);
+        customer2.setFirstName("Nil");
+        customer2.setLastName("Choudhary");
         //Saving Data
         customerRepository.save(customer1);
         customerRepository.save(customer2);
